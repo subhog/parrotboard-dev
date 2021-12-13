@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" content="Svelte test app" />
+		<link rel="icon" href="/favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<base href="/parrotboard-dev" target="_blank" />
+		
+
+		
+
+		<link rel="modulepreload" href="/_app/start-1b60f7f7.js">
+		<link rel="modulepreload" href="/_app/chunks/vendor-af0f2ef7.js">
+		<link rel="stylesheet" href="/_app/assets/start-61d1577b.css">
+
+		<script type="module">
+			import { start } from "/_app/start-1b60f7f7.js";
+			start({
+				target: document.querySelector("#root"),
+				paths: {"base":"","assets":""},
+				session: {},
+				host: location.host,
+				route: true,
+				spa: true,
+				trailing_slash: "never",
+				hydrate: null
+			});
+		</script>
+	</head>
+	<body>
+		<div id="root">
+
+			
+		</div>
+	</body>
+</html>
