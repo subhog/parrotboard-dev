@@ -1,0 +1,1 @@
+import{S as l,i as c,s as i,e as d,t as h,c as f,a as m,g as u,d as o,f as p,E as _,F as n}from"../chunks/vendor-55b1bfb4.js";function x(r){let e,s;return{c(){e=d("h1"),s=h("PUZZLE")},l(t){e=f(t,"H1",{});var a=m(e);s=u(a,"PUZZLE"),a.forEach(o)},m(t,a){p(t,e,a),_(e,s)},p:n,i:n,o:n,d(t){t&&o(e)}}}class Z extends l{constructor(e){super();c(this,e,null,x,i,{})}}export{Z as default};
