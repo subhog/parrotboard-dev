@@ -14,22 +14,25 @@
 
 		
 
-		<link rel="modulepreload" href="/js/start-4f7530a6.js">
-		<link rel="modulepreload" href="/js/chunks/vendor-2ee6ea9e.js">
 		<link rel="stylesheet" href="/js/assets/start-61d1577b.css">
+		<link rel="modulepreload" href="/js/start-e6a6023f.js">
+		<link rel="modulepreload" href="/js/chunks/vendor-dc5f7af6.js">
 
 		<script type="module">
-			import { start } from "/js/start-4f7530a6.js";
+			import { start } from "/js/start-e6a6023f.js";
 			start({
 				target: document.querySelector("#root"),
 				paths: {"base":"","assets":""},
 				session: {},
-				host: location.host,
 				route: true,
 				spa: true,
 				trailing_slash: "never",
 				hydrate: null
 			});
+		</script><script>
+			if ('serviceWorker' in navigator) {
+				navigator.serviceWorker.register('/service-worker.js');
+			}
 		</script>
 	</head>
 	<body>
